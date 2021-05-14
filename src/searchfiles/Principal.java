@@ -236,6 +236,5 @@ public class Principal extends javax.swing.JFrame {
     static int qtdnodemodules = 0;
 
     static boolean procurando = true;
-    //static List<Search> listaThreads = new ArrayList<>();
     static Map<String, Search> listaThreads = new ConcurrentHashMap<String, Search>();
 }

@@ -30,14 +30,6 @@ public class Search extends Thread {
             }
 
             Principal.removerThread(this);
-
-//            synchronized (this) {
-//
-//                if (Principal.listaThreads.isEmpty() && Principal.isProcurando()) {
-//                    Principal.setProcurando(false);
-//                    Principal.naoEncontrou();
-//                }
-//            }
         }
     }
 }
